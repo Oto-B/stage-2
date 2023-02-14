@@ -350,8 +350,10 @@ width: 700px;
 
     /* Block of code */
 
-      .navbar{
+      .nav{
         display: flex;
+        border: solid red;
+        flex-direction: column;
         justify-content: space-between;
         /* width: 100%; */
       }
@@ -363,7 +365,7 @@ width: 700px;
       }
       .navbar-lists{
         /* border: solid red; */
-        display: none;
+        /* display: none; */
         /* position: absolute; */
         /* right: 0px;
         height: 92vh;
